@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="nav">
+          <a href="#">
+            <img src="resources/logo.png" alt="Логотип" class="nav__logo"
+          /></a>
+          <div class="nav__menu">
+            <a href="#about" class="nav__menu__title nav__active">О нас</a>
+            <a href="#projects" class="nav__menu__title">Проекты</a>
+            <a href="#services" class="nav__menu__title">Услуги</a>
+            <a href="#contacts" class="nav__menu__title">Контакты</a>
+          </div>
+        </div>
+        <h1 id="container__title">
+          Современные и стильные интерьеры для комфортной жизни
+        </h1>
+        <div class="discription">
+          <p class="discription__info">
+            Мы - команда квалифицированных дизайнеров и архитекторов,
+            занимающихся разработкой и реализацией дизайн-проектов
+          </p>
+        </div>
+        <div class="about" id="about">
+          <h2>О НАС</h2>
+          <p class="about__info">
+            Студия основана в 2011 году. Полностью отдаемся проектированию и
+            реализации интерьеров. К нам обращаются за уютом, индивидуальными
+            решениями и практичностью. Находим конструктивные решения для
+            каждого интерьера, вплоть до каждой детали — нацелены на результат.
+          </p>
+        </div>
+        <a href="#services" class="show__services">Посмотреть услуги</a>
+        <h2 id="projects">Проекты</h2>
+        <div class="project">
+          <img
+            src="resources/item-1.png"
+            alt="Пример квартиры"
+            class="project__img"
+          />
+          <h3>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+          <a href="#project__last" class="show__details">Подробнее →</a>
+        </div>
+        <div class="project">
+          <img
+            src="resources/item-2.png"
+            alt="Пример квартиры"
+            class="project__img"
+          />
+          <h3>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+          <a href="#project__last" class="show__details">Подробнее →</a>
+        </div>
+        <div class="project">
+          <img
+            src="resources/item-3.png"
+            alt="Пример квартиры"
+            class="project__img"
+          />
+          <h3>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+          <a href="#project__last" class="show__details">Подробнее →</a>
+        </div>
+        <a href="#projects" class="show__projects">Смотреть все проекты</a>
+      </div>
+      <section class="services">
+        <div class="container container__services">
+          <h2 id="services">Услуги</h2>
+          <div class="services__card">
+            <img
+              src="resources/service-1.png"
+              alt="Карандаш и чертеж"
+              class="services__img"
+            />
+            <h3>Планировочное решение — от 2500₽/м²</h3>
+          </div>
+          <div class="services__card">
+            <img
+              src="resources/service-2.png"
+              alt="Палетка цветов"
+              class="services__img"
+            />
+            <h3>Дизайн-проект — от 3000₽/м²</h3>
+          </div>
+          <div class="services__card">
+            <img
+              src="resources/service-3.png"
+              alt="Мужчина и чертеж"
+              class="services__img"
+            />
+            <h3>Авторский надзор — от 30 000₽ в месяц</h3>
+          </div>
+          <div class="services__card">
+            <img
+              src="resources/service-4.png"
+              alt="Склад"
+              class="services__img"
+            />
+            <h3>Комплектация — 5% от стоимости спецификации</h3>
+          </div>
+        </div>
+        <div class="project__last" id="project__last">
+          <p class="project__last__info">
+            Проект Двухкомнатаной квартиры в ЖК Лесной Пейзаж
+          </p>
+        </div>
+      </section>
+      <div class="container contacts" id="contacts">
+        <h2 class="contacts__title">Контакты</h2>
+        <p>
+          <a href="tel:+79358954535" class="contacts__telephone"
+            >+7 935 895-45-35</a
+          >
+        </p>
+        <p>
+          <a href="mailto:hello@mail.com" class="contacts__email"
+            >hello@mail.com</a
+          >
+        </p>
+      </div>
+      <section class="footer">
+        <div class="footer__links">
+          <a href="#about" class="footer__title footer__active">О нас</a>
+          <a href="#projects" class="footer__title">Проекты</a>
+          <a href="#services" class="footer__title">Услуги</a>
+          <a href="#contacts" class="footer__title">Контакты</a>
+        </div>
+        <p class="footer__description">
+          студия дизайна интерьера Метрика — 2023
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
