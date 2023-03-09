@@ -135,6 +135,11 @@ h3 {
   letter-spacing: -0.03em;
   background-color: #ad1818;
   color: #ffffff;
+  transition: 0.3s;
+}
+
+.show__services:hover {
+  background-color: #ca1818;
 }
 
 .project {
