@@ -49,15 +49,6 @@ h3 {
 }
 
 .nav {
-  max-width: 1150px;
-  padding-top: 33px;
-  height: 25.18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav {
   width: 100%;
   padding-top: 33px;
   height: 25.18px;
