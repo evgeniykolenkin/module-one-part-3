@@ -48,22 +48,20 @@ h3 {
   color: #121212;
 }
 
-.nav {
-  width: 100%;
-  padding-top: 33px;
-  height: 25.18px;
+.nav,
+.nav__menu {
   display: flex;
+}
+
+.nav {
   justify-content: space-between;
   align-items: center;
+  padding-top: 33px;
+  background-color: #ffffff;
 }
 
 .nav__logo {
   padding-right: 15px;
-}
-
-.nav__menu {
-  display: flex;
-  height: 25.18px;
 }
 
 .nav__menu__title {
