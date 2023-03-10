@@ -54,6 +54,7 @@ h3 {
 }
 
 .nav {
+  box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
   padding-top: 33px;
