@@ -235,9 +235,13 @@ h3 {
   background-position: 50%;
 }
 
+.container__last {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
 .project__last p {
   position: absolute;
-  left: 125px;
   bottom: 60px;
   width: 443px;
   color: #ffffff;
