@@ -58,7 +58,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding-top: 33px;
-  height: 25px;
+  height: 25.18px;
   background-color: #ffffff;
 }
 
@@ -68,14 +68,14 @@ h3 {
 
 .nav__menu__title {
   display: inline-block;
+  box-sizing: border-box;
   margin-right: 55px;
   font-size: 18px;
-  line-height: 26px;
+  height: 25px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #121212;
   text-decoration: none;
-  transition: 0.4s;
 }
 
 .nav__menu__title:nth-last-child(1) {
@@ -88,7 +88,7 @@ h3 {
 
 .nav__menu__title:hover {
   opacity: 0.5;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #121212;
 }
 
 .discription {
